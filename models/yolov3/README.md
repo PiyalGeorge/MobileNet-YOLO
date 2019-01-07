@@ -41,8 +41,11 @@ char* CLASSES[6] = { "__background__", "person", "dog", "cat", "car", "bus" };
 
 Then once again run make commands:
 > cd build
+
 > cmake ..
+
 > make -j4
+
 > make pycaffe
 
 In **MobileNet-YOLO/demo_yolo_lite.sh**, modify: 
